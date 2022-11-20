@@ -19,6 +19,7 @@ const RestHome = () => {
             <img src={pic1} alt="not found" />
             <h1>Feed your employees</h1>
             <h3>Create a business account</h3>
+            <div className="para">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
               expedita similique, provident veniam, culpa harum neque, inventore
@@ -27,11 +28,13 @@ const RestHome = () => {
               dolorum veniam blanditiis facilis est maxime libero, aspernatur,
               sed doloribus odio!
             </p>
+            </div>
           </div>
           <div className="delivery">
             <img src={pic2} alt="not found" />
             <h1>Your restaurant, delivered</h1>
             <h3>Add your restaurant</h3>
+            <div className="para">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
               expedita similique, provident veniam, culpa harum neque, inventore
@@ -40,11 +43,13 @@ const RestHome = () => {
               dolorum veniam blanditiis facilis est maxime libero, aspernatur,
               sed doloribus odio!
             </p>
+            </div>
           </div>
           <div className="about">
             <img src={pic3} alt="not found" />
-            <h1>Deliver with Uber Eats</h1>
+            <h1>Deliver with FoodKart</h1>
             <h3>Sign up to deliver</h3>
+            <div className="para">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
               expedita similique, provident veniam, culpa harum neque, inventore
@@ -53,6 +58,7 @@ const RestHome = () => {
               dolorum veniam blanditiis facilis est maxime libero, aspernatur,
               sed doloribus odio!
             </p>
+            </div>
           </div>
         </div>
       </div>

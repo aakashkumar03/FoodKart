@@ -1,0 +1,25 @@
+.error{
+    background-image: url(../image/error.jpg);
+    display: flex;
+    background-size: cover;
+    height: 100vh;
+}
+.but button{
+    width: 133px;
+    padding: 10px 0px;
+    
+    margin-left: 390px;
+    background-color: black;
+    
+}
+.but a{
+    color: coral;
+    font-size: larger;
+}
+.rtrnHome{
+    margin: 100px 0px 0px 900px;
+}
+.msg h1{
+    font-size: 200%;
+    margin-right: 100px;
+}

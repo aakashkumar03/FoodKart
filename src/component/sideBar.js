@@ -1,7 +1,8 @@
 import "../style/sideBar.css";
 import {Link} from 'react-router-dom';
 
-const SideBar = () => {
+const SideBar = (probs) => {
+  let userName = probs.data
   return (
     <section className="sidebar">
       <div className="userDet">
@@ -13,6 +14,7 @@ const SideBar = () => {
         </div>
         <div className="name">
           <h1>User</h1>
+          <p>{userName}</p>
         </div>
       </div>
       <div className="links">
@@ -21,7 +23,7 @@ const SideBar = () => {
           <li><Link to="/user-portal/rest-list">Restaurant List</Link></li>
           <li><Link to="/user-portal/veg-rest">For Vegetarian</Link></li>
           <li><Link to="/user-portal/non-veg-rest">For Non Vegetarian</Link></li>
-          <li><Link to="/user-portal/fav-dish">Favourite Dish</Link></li>
+          {/* <li><Link to="/user-portal/fav-dish">Favourite Dish</Link></li> */}
           <li><Link to="/user-portal/fastdelivery">Fast Delivery</Link></li>
           <li><Link to="/user-portal/feedback">Feedback</Link></li>
           <li><Link to="/user-login">LogOut</Link></li>

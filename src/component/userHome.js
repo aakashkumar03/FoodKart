@@ -1,10 +1,11 @@
 import "../style/userHome.css";
-import pic4 from "../image/burger2.jpg";
-import pic5 from "../image/burger1.jpg";
-import pic6 from "../image/burger2.jpg";
-import pic7 from "../image/wallpaper12.jpg";
-import pic8 from "../image/wallpaper13.jpg";
-import pic9 from "../image/wallpaper14.jpg";
+import pic4 from "../image/bar.jpg";
+import pic5 from "../image/dinning.jpg";
+import pic6 from "../image/dinning1.jpg";
+import pic7 from "../image/burger1.jpg";
+import pic8 from "../image/chickenKasha.jpg";
+import pic9 from "../image/chicken.jpg";
+import pic10 from "../image/dinning2.jpg";
 
 const UserHome = () => {
   return (
@@ -41,7 +42,7 @@ const UserHome = () => {
         </div>
         <div className="pic2">
           <img src={pic5} alt="" />
-          <h1>Dinning 1</h1>
+          <h1>Dating Space</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
             corrupti dolorem quisquam nesciunt sunt numquam voluptates.
@@ -51,7 +52,7 @@ const UserHome = () => {
         </div>
         <div className="pic3">
           <img src={pic6} alt="" />
-          <h1>Dinning 2</h1>
+          <h1>Birthday Celebration</h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
             corrupti dolorem quisquam nesciunt sunt numquam voluptates.
@@ -61,7 +62,7 @@ const UserHome = () => {
         </div>
       </div>
       <div className="footer">
-        <img src={pic4} alt="" />
+        <img src={pic10} alt="" />
       </div>
       </div>
     </section>

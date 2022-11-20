@@ -43,7 +43,7 @@ const DishList = () => {
                   Catagory: {D.catagory} <br />
                 </div>
                 <div className="time">
-                  Preparation Time: {D.time} <br />
+                  Preparation Time: {D.time} min <br />
                 </div>
                 <div className="desc">
                   Description : {D.desc} <br />

@@ -4,6 +4,10 @@ import pic1 from "../image/chef.jpg";
 import pic2 from "../image/chef1.jpg";
 import pic3 from "../image/chef2.jpg";
 const HomePage = () => {
+  let handleClick=(e)=>{
+    e.preventDefault()
+    alert("Work is on Process")
+  }
   return (
     <section className="homepage">
       <div className="navbar">
@@ -12,24 +16,20 @@ const HomePage = () => {
         </div>
         <div className="login">
           <Link to="restaurant-login">Restaurant</Link>
-          <Link to="user-login"> User</Link>
+          <button id="blk1"><Link id="blk" to="user-login"> User</Link></button>
         </div>
       </div>
       <div className="search">
         <input type="text" placeholder="Enter your delivery location"  />
-        <button>Search</button>
-        <div className="image">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
+        <button onClick={handleClick}>Search</button>
       </div>
+   
       <div className="facility">
         <div className="eat">
           <img src={pic1} alt="not found" />
           <h1>Feed your employees</h1>
           <h3>Create a business account</h3>
-          <p>
+          <div className="par"><p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A expedita
             similique, provident veniam, culpa harum neque, inventore esse quas
             exercitationem distinctio error perspiciatis? Corrupti consectetur
@@ -37,11 +37,13 @@ const HomePage = () => {
             blanditiis facilis est maxime libero, aspernatur, sed doloribus
             odio!
           </p>
+          </div>
         </div>
         <div className="delivery">
           <img src={pic2} alt="not found" />
           <h1>Your restaurant, delivered</h1>
           <h3>Add your restaurant</h3>
+          <div className="par2">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A expedita
             similique, provident veniam, culpa harum neque, inventore esse quas
@@ -50,11 +52,13 @@ const HomePage = () => {
             blanditiis facilis est maxime libero, aspernatur, sed doloribus
             odio!
           </p>
+          </div>
         </div>
         <div className="about">
           <img src={pic3} alt="not found" />
           <h1>Deliver with Uber Eats</h1>
           <h3>Sign up to deliver</h3>
+          <div className="par3">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A expedita
             similique, provident veniam, culpa harum neque, inventore esse quas
@@ -63,6 +67,7 @@ const HomePage = () => {
             blanditiis facilis est maxime libero, aspernatur, sed doloribus
             odio!
           </p>
+          </div>
         </div>
       </div>
       <div className="city">

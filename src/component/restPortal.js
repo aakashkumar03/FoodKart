@@ -7,11 +7,12 @@ import RestList from './restList';
 import DishList from './dishList';
 import RestHome from './restHome';
 import Review from './review';
+import Error from './error';
 
-const RestPortal = () => {
+const RestPortal = (probs) => {
     return ( <section className="restportal">
         <div className="top">
-            <NavBar/>
+            <NavBar data={probs.data}/>
             <Routes>
                 <Route path="/rest-home" element={<RestHome/>}/>
                 <Route path="/add-rest" element={<AddRest/>}/>
@@ -19,6 +20,7 @@ const RestPortal = () => {
                 <Route path="/rest-list" element={<RestList/>}/>
                 <Route path="/dish-list" element={<DishList/>}/>
                 <Route path="/feedback" element={<Review/>}/>
+                <Route path="/*" element={<Error/>}/>
             </Routes>
         </div>
         

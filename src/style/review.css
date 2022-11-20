@@ -2,7 +2,7 @@
     margin-left: 250px;
 }
 .total2 h1{
-    margin-top: 0px;
+    margin: 0px;
 }
 .total2{
     margin-left: 100px;
@@ -16,13 +16,17 @@
 
 .card2{
     margin: 20px;
-    border: 3px solid black;
+    border: 5px solid rgb(111, 94, 235);
     padding: 20px;
-    background-color: aliceblue;
-    width: 1000px;
+    background-color: rgba(0, 0, 0, 0.837);
+    width: 1100px;
     border-radius: 10px;
+    color: azure;
 
 }
 .card2 button{
     margin: 20px 0px 0px 25px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 10px;
+    /* font-weight: 500; */
 }

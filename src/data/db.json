@@ -1,181 +1,463 @@
 {
   "restaurant": [
     {
-      "restName": "kfc",
-      "number": "123456789",
+      "restName": "The Burning Brownie",
+      "number": "9063002196",
       "email": "abcd@gmail.com",
       "type": "dinning",
       "catagory": "veg",
-      "address": "asbchdkiubcuabfvoinvipfvnp;voddvm;vmv",
+      "address": "Fourth and Fifth Floor, Swamy Legato, 20/7, Outer Ring Rd, Kadubeesanahalli",
       "id": 1
     },
     {
-      "restName": "kfc",
-      "number": "123456789",
-      "email": "abcd@gmail.com",
+      "restName": "Meat You There",
+      "number": "7778489610",
+      "email": "bryam@optonline.net",
       "type": "dinning",
       "catagory": "non veg",
-      "address": "asbchdk",
+      "address": "64, Near Wonderla Gate, Hanumantha Nagar, Mysore Road",
       "id": 2
     },
     {
-      "restName": "kfc",
-      "number": "123456789",
+      "restName": "Signature Cuisine",
+      "number": "7999763885",
       "email": "abcd@gmail.com",
-      "type": "dinning",
+      "type": "cloud kitchen",
       "catagory": "non veg",
-      "address": "asbchdk",
+      "address": "52, 1st Floor, 33rd Cross Rd, near Cafe Coffee Day, 4th Block",
       "id": 3
     },
     {
-      "restName": "kfc",
-      "number": "123456789",
+      "restName": "Emerald Grill",
+      "number": "7415517886",
       "email": "abcd@gmail.com",
       "type": "dinning",
       "catagory": "veg",
-      "address": "asbchdk",
+      "address": "31, Rashtriya Vidyalaya Rd, opp. Vijay College, 2nd Block",
       "id": 5
     },
     {
-      "restName": "kfc",
-      "number": "123456789",
-      "email": "abcd@gmail.com",
-      "type": "dinning",
+      "restName": "The Heavens Kitchen",
+      "number": "7596700444",
+      "email": "bryam@optonline.net",
+      "type": "cloud kitchen",
       "catagory": "veg",
-      "address": "asbchdk",
+      "address": "52, 1st Floor, 33rd Cross Rd, near Cafe Coffee Day, 4th Block",
       "id": 6
     },
     {
-      "restName": "kfc",
-      "number": "123456789",
+      "restName": "Chilly and the Cheese Factory",
+      "number": "7415517886",
+      "email": "mobileip@icloud.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "UB City, Vittal Mallya Road",
+      "id": 7
+    },
+    {
+      "restName": "The Bacon Movement",
+      "number": "9232493765",
+      "email": "abcd@gmail.com",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "Fourth and Fifth Floor, Swamy Legato, 20/7, Outer Ring Rd, Kadubeesanahalli",
+      "id": 8
+    },
+    {
+      "restName": "The Dinner Train",
+      "number": "7596700444",
+      "email": "bryam@optonline.net",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "31, Rashtriya Vidyalaya Rd, opp. Vijay College, 2nd Block",
+      "id": 9
+    },
+    {
+      "restName": "The Catch of the Day",
+      "number": "7415517886",
+      "email": "mobileip@icloud.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Gateway Hotel, 66, Residency Road",
+      "id": 10
+    },
+    {
+      "restName": "True Food Kitchen",
+      "number": "7596700444",
+      "email": "cantu@comcast.net",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "79/8, Diagonal Road, Jaya Nagar 1st Block, Jayanagar 3rd Block,",
+      "id": 11
+    },
+    {
+      "restName": "The Burning Giraffe",
+      "number": "8844225629",
       "email": "abcd@gmail.com",
       "type": "dinning",
       "catagory": "veg",
-      "address": "asbchdk",
-      "id": 7
+      "address": "31, Rashtriya Vidyalaya Rd, opp. Vijay College, 2nd Block",
+      "id": 12
+    },
+    {
+      "restName": "The True Food Kitchen",
+      "number": "7668587878",
+      "email": "mobileip@icloud.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Fourth and Fifth Floor, Swamy Legato, 20/7, Outer Ring Rd, Kadubeesanahalli",
+      "id": 13
+    },
+    {
+      "restName": "The Smoking Goat",
+      "number": "9232493765",
+      "email": "abcd@gmail.com",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "45, Kalena Agrahara, near Meenakshi Temple",
+      "id": 14
+    },
+    {
+      "restName": "The Food Connoisseurs",
+      "number": "7668587878",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Gateway Hotel, 66, Residency Road",
+      "id": 15
+    },
+    {
+      "restName": "The Hard Rock Café",
+      "number": "8844225629",
+      "email": "cantu@comcast.net",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "1313, Near Bangalore Central Mall, 25th Main, 9th Block",
+      "id": 16
+    },
+    {
+      "restName": "Yummy In My Tummy",
+      "number": "8136937404",
+      "email": "abcd@gmail.com",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "Fourth and Fifth Floor, Swamy Legato, 20/7, Outer Ring Rd, Kadubeesanahalli",
+      "id": 17
+    },
+    {
+      "restName": "The Hot and the Furious",
+      "number": "8524716889",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Green Theory, 15, Convent Rd, Shanthala Nagar, Richmond Town",
+      "id": 18
+    },
+    {
+      "restName": "The Dukes Clubhouse",
+      "number": "8844225629",
+      "email": "cantu@comcast.net",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Plot No 94 – 95 Residency Road, Opposite Bharat Petrol Bunk",
+      "id": 19
+    },
+    {
+      "restName": "Kings and Queen",
+      "number": "6410332165",
+      "email": "abcd@gmail.com",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "36, Church St, Shanthala Nagar, Ashok Nagar",
+      "id": 20
+    },
+    {
+      "restName": "The English Tea House",
+      "number": "8136937404",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Green Theory, 15, Convent Rd, Shanthala Nagar, Richmond Town",
+      "id": 21
+    },
+    {
+      "restName": "Grab a Bite Restaurant and Café",
+      "number": "8844225629",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "Plot No 94 – 95 Residency Road, Opposite Bharat Petrol Bunk",
+      "id": 22
+    },
+    {
+      "restName": "The Heritage Restaurant",
+      "number": "6410332165",
+      "email": "cantu@comcast.net",
+      "type": "cloud kitchen",
+      "catagory": "veg",
+      "address": "45, Kalena Agrahara, near Meenakshi Temple",
+      "id": 23
+    },
+    {
+      "restName": "Chimneys Restaurant and Grill",
+      "number": "8136937404",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "36, Church St, Shanthala Nagar, Ashok Nagar",
+      "id": 24
     }
   ],
   "dish": [
     {
-      "dishName": "Ultimate bucket",
+      "dishName": "Jeera Miri Kolambi",
       "catagory": "non veg",
-      "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "time": 30,
+      "desc": "Jeera Miri Kolambi Recipe is a delicious appetizer with a kick of pepper and jeera. It is easy to make and can be served as a side dish with your meals too.",
       "id": 1
     },
     {
-      "dishName": "Ultimate bucket",
+      "dishName": "Chhole Bhature",
       "catagory": "veg",
-      "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "time": 20,
+      "desc": "No need of Description for this dish.",
       "id": 2
     },
     {
-      "dishName": "Ultimate bucket",
+      "dishName": "Chicken Biriyani",
       "catagory": "non veg",
-      "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "time": 60,
+      "desc": "Spicy chicken with flavored rice ❤️",
       "id": 3
     },
     {
-      "dishName": "Ultimate bucket",
+      "dishName": " ALOO GOBI",
       "catagory": "veg",
-      "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "time": 40,
+      "desc": "Aloo gobi is the most common yet most loved dish in North India. This is a dry sauteed dish. Potatoes and cauliflower florets are cooked and sauteed dry with aromatic Indian Spices.",
       "id": 4
     },
     {
-      "dishName": "Ultimate bucket",
+      "dishName": "Chicken Seekh Kebab",
       "catagory": "non veg",
       "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "desc": "In this recipe, we have cooked the seekh kebab over the tawa so you can make it easily in your kitchen too when you don't have a tandoor or a BBQ grill.",
       "id": 5
     },
     {
-      "dishName": "Ultimate bucket",
+      "dishName": "Murgh Aloo Tikki Recipe - Chicken & Potato Tikki",
       "catagory": "non veg",
-      "time": 10,
-      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "time": 72,
+      "desc": "Murgh Aloo Tikki is an easy chicken cutlet recipe which is served as a starter with any chutney of your choice",
       "id": 6
     },
     {
-      "dishName": "jndj",
-      "catagory": "h ds",
-      "time": "55",
-      "desc": "hvjhbdsc",
+      "dishName": "BHINDI DO PYAZA MASALA",
+      "catagory": "veg",
+      "time": 32,
+      "desc": "Bhindi do pyaza is different from that of the bhindi fry. In this recipe, onion is used twice the quantity of bhindi or okra",
       "id": 7
     },
     {
-      "dishName": "q",
-      "catagory": "w",
-      "time": "3",
-      "desc": "eqr",
+      "dishName": "STIR-FRIED POTATO & CAPSICUM",
+      "catagory": "veg",
+      "time": 62,
+      "desc": "This is stir-fried potatoes and capsicum. It's an easy and quick dish. This goes well with roti, poori, paratha, etc.",
+      "id": 8
+    },
+    {
+      "dishName": "Peri Peri Fish Fingers",
+      "catagory": "non veg",
+      "time": 25,
+      "desc": "Peri Peri Fish Fingers are Fish fingers that are crumb coated and fried till crispy and crunchy making it a perfect starter/appetizer for your Indian Dinner Parties.",
       "id": 9
+    },
+    {
+      "dishName": "Chicken & Bell Pepper Skewers",
+      "catagory": "non veg",
+      "time": 23,
+      "desc": "Chicken & Bell Pepper Skewers Recipe is a lovely party appetizer where the chicken is marinated with soy, honey, fresh pineapple juice and spiced with a good hint of cloves and black pepper powder.",
+      "id": 10
+    },
+    {
+      "dishName": "Lauki Bhujia",
+      "catagory": "veg",
+      "time": 90,
+      "desc": "This is an awesome low-carb dish. Lauki bhujia is perfect if you are following a weight loss diet or keto diet",
+      "id": 11
+    },
+    {
+      "dishName": "Mexican Chicken Fajita",
+      "catagory": "non veg",
+      "time": 29,
+      "desc": "Mexican Chicken Fajita Recipe has the tender chicken strips with all the Mexican flavors topped with sour cream and guacamole",
+      "id": 12
+    },
+    {
+      "dishName": "BHARWA BAINGAN",
+      "catagory": "veg",
+      "time": 45,
+      "desc": "This bharwa baingan is made with the same spices as bharwa karela. these are extremely delicious and perfect as a side dish or main course.",
+      "id": 13
+    },
+    {
+      "dishName": "DAL MAKHANI",
+      "catagory": "veg",
+      "time": 38,
+      "desc": "One of the many joys in travelling across a country as vast and diverse as India is its rich culinary heritage",
+      "id": 14
+    },
+    {
+      "dishName": "Stuffed Chicken Pockets Recipe With Mint Mayo",
+      "catagory": "non veg",
+      "time": 25,
+      "desc": "Stuffed Chicken Pockets Recipe With Mint Mayo Recipe is a delicious chicken snack. A dough parcel is stuffed with flavoured chicken and mayo that's deep fried",
+      "id": 15
+    },
+    {
+      "dishName": "RAJMA MASALA",
+      "catagory": "veg",
+      "time": 15,
+      "desc": "Rajma masala is one of the popular dishes of North Indian cuisine. It's more loved in Punjab.",
+      "id": 16
+    },
+    {
+      "dishName": "Crispy Chicken",
+      "catagory": "non veg",
+      "time": 26,
+      "desc": "A crunchy snack, KFC Style Crispy Chicken Popcorn Recipe is a party appetizer which has succulent pieces of chicken with a crispy flavourful coating",
+      "id": 17
+    },
+    {
+      "dishName": "Paprika Chicken Skewers",
+      "catagory": "non veg",
+      "time": 56,
+      "desc": "A party appetizer that's super simple to make, this Paprika Chicken Skewers Recipe, will leave your guests asking you for more",
+      "id": 18
+    },
+    {
+      "dishName": "GATTE KI SABZI",
+      "catagory": "veg",
+      "time": 34,
+      "desc": "Gatte ki sabzi authentically comes from Rajasthan. This is a curd based dish. ",
+      "id": 19
+    },
+    {
+      "dishName": "Prawn Cutlets With Sweet Potatoes Wedges",
+      "catagory": "non veg",
+      "time": 34,
+      "desc": "Prawn Cutlets With Sweet Potatoes Wedges is a delicious combination of crunchy Prawn cutlets and baked sweet potatoes wedges.",
+      "id": 20
     }
   ],
   "feedback": [
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
+      "dishName": "Chicken Seekh Kebab",
+      "restName": "Meat You There",
+      "custName": "Devasru Subramanyan",
+      "custNum": 8818955574,
       "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "review": "I also had their house salad which always has more than just lettuce as it should. My wife had the portobello mushroom and spinach quesadilla which she loved. We go here at least one each month.",
       "id": 1
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Crispy Chicken",
+      "restName": "KFC",
+      "custName": "Jitendra Choudhary",
+      "custNum": 9037583440,
+      "rating": 8,
+      "review": "Great place for lunch!  Nice cozy feeling inside, friendly servers and good food!  I had the country fried steak which was perfect, and the biscuits are as good as everyone says.",
       "id": 2
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Jeera Miri Kolambi",
+      "restName": "Emerald Grill",
+      "custName": "Asvathama Ponnada",
+      "custNum": 8938048960,
+      "rating": 6,
+      "review": "I ordered the Mahi that was baked with fresh pineapple salsa on top My Seafood Soup was cream based and chocked full of seafood and potatoes and it was served hot.",
       "id": 3
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Chicken Biriyani",
+      "restName": "The True Food Kitchen",
+      "custName": "Debasis Sundhararajan",
+      "custNum": 9745330035,
+      "rating": 8,
+      "review": "I took my brother and the family from Miami to the Dish on there first time trip to Charlotte because it’s a must . Thanks again for making everyone feel so welcome and the food was the best like always.",
       "id": 4
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Mexican Chicken Fajita",
+      "restName": "Yummy In My Tummy",
+      "custName": "Vijai Sritharan",
+      "custNum": 6892382213,
+      "rating": 9,
+      "review": "Are you in the mood for good old home cooking? Then look no further Dish is your spot! Our waitress Ellen was phenomenal kept our drinks topped off and had great recommendations! I had the seafood gumbo and the shrimp and grits everything tasted great.",
       "id": 5
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Peri Peri Fish Fingers",
+      "restName": "Grab a Bite Restaurant and Café",
+      "custName": "Aditi Musunur",
+      "custNum": 7275036790,
+      "rating": 10,
+      "review": "Hands down the BEST restaurant around the Plaza Midwood area! Their service and food were spot on. I had their chicken thigh special and it was one of the best chicken thighs I have ever had. Super juicy, well-seasoned and moist in texture. Our server was friendly and attentive throughout the evening.",
       "id": 6
     },
     {
-      "dishName": "ultimate bucket",
-      "restName": "kfc",
-      "custName": "Abcs",
-      "custNum": 123456,
-      "rating": 4,
-      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "dishName": "Jeera Miri Kolambi",
+      "restName": "The True Food Kitchen",
+      "custName": "Amrish Ilyas",
+      "custNum": 6722195560,
+      "rating": 1,
+      "review": "Tasty vegan & vegetarian southern food. Missing your great aunt’s deviled eggs? Well, don’t mess up your kitchen, head over to Dish to satisfy that craving. Add in a yummy cocktail, too to round out your experience. I think the vegan coleslaw is some of the best I’ve ever had.",
       "id": 7
+    },
+    {
+      "dishName": "Chhole Bhature",
+      "restName": "The Food Connoisseurs",
+      "custName": "Debasis Sundhararajan",
+      "custNum": 8377165232,
+      "rating": 7,
+      "review": "Amazing quality of food with very reasonable price. Me and my friends ordered Meatloaf, Pot Roast, and Country Fried Steak. All of those were delicious and I highly recommend them. Our server was very helpful and warm as well.",
+      "id": 8
+    },
+    {
+      "dishName": "Lauki Bhujia",
+      "restName": "Signature Cuisine",
+      "custName": "Vijai Sritharan",
+      "custNum": 8237920515,
+      "rating": 9,
+      "review": "Dish still remains a well-kept secret in the Queen City, and that’s just the way we like it. If you ever crave your mom’s cooking, but a much better version, then look no further. Friendly, warm, caring staff, and food that just defines the word comfort. And for goodness sake, get the damn key lime pie, and thank me tomorrow!",
+      "id": 9
+    },
+    {
+      "dishName": "STIR-FRIED POTATO & CAPSICUM",
+      "restName": "Prawn Cutlets With Sweet Potatoes Wedges",
+      "custName": "Kalyanavata Veerender",
+      "custNum": 6121423043,
+      "rating": 10,
+      "review": "Hands down the BEST restaurant around the Plaza Midwood area! Their service and food were spot on. I had their chicken thigh special and it was one of the best chicken thighs I have ever had. Super juicy, well-seasoned and moist in texture. Our server was friendly and attentive throughout the evening.",
+      "id": 10
+    },
+    {
+      "dishName": "Chicken Biriyani",
+      "restName": "The Bacon Movement",
+      "custName": "Jayadev Mitali",
+      "custNum": 6471945545,
+      "rating": 9,
+      "review": "Always great comfort food at Dish! I’ve been going there since they opened up many years back. The place hasn’t changed much since it opened, and why mess with what works! The food reminds me of my grandmother’s cooking. I have three favorites that I rotate through, their meatloaf is my favorite, their pot roast is awesome, and their chicken and dumplings are the best I’ve had in Charlotte.",
+      "id": 11
+    },
+    {
+      "dishName": "Chicken & Bell Pepper Skewers",
+      "restName": "Emerald Grill",
+      "custName": "Gopa Trilochana",
+      "custNum": 8328864468,
+      "rating": 6,
+      "review": "Are you in the mood for good old home cooking? Then look no further Dish is your spot! Our waitress Ellen was phenomenal kept our drinks topped off and had great recommendations! I had the seafood gumbo and the shrimp and grits everything tasted great. Nice upbeat atmosphere decor was eclectic with plates of all different styles on the wall. Overall fun experience and great food be sure to pass through here next time you are in the Plaza Midwood area!",
+      "id": 12
     }
   ]
 }

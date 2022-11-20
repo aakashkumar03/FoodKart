@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../style/navBar.css";
-const NavBar = () => {
+const NavBar = (probs) => {
+  let adName = probs.data;
   return (
     <section className="navb">
       <div className="adminDet">
@@ -12,6 +13,7 @@ const NavBar = () => {
         </div>
         <div className="name">
         <h1>Restaurant Admin</h1>
+        <p>{adName}</p>
         </div>
       </div>
       <div className="link">

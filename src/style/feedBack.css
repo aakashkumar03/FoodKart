@@ -28,7 +28,7 @@
     border-left: none;
     border-right: none;
     background-color: rgba(0, 0, 0, 0);
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .form2 textarea{
     width: 470px;

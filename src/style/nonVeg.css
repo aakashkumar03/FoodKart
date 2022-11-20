@@ -1,0 +1,44 @@
+.nonVeg{
+    margin-left: 250px;
+}
+
+.veg{
+    margin-left: 250px;
+}
+
+.fav{
+    
+    margin-left: 250px;
+}
+.fast{
+    
+    margin-left: 250px;
+}
+.card9{
+    margin: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgba(243, 4, 4, 0.299);
+    width: 500px;
+    border-radius: 10px;
+}
+
+.card8{
+    margin: 20px;
+    border: 3px solid rgb(243, 10, 10);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.744);
+    width: 500px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.card7{
+    margin: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: rgba(4, 131, 243, 0.299);
+    width: 500px;
+    border-radius: 10px;
+    color: rgb(112, 7, 28);
+}
