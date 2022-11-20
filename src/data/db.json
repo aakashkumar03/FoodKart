@@ -1,0 +1,181 @@
+{
+  "restaurant": [
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "asbchdkiubcuabfvoinvipfvnp;voddvm;vmv",
+      "id": 1
+    },
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "non veg",
+      "address": "asbchdk",
+      "id": 2
+    },
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "non veg",
+      "address": "asbchdk",
+      "id": 3
+    },
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "asbchdk",
+      "id": 5
+    },
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "asbchdk",
+      "id": 6
+    },
+    {
+      "restName": "kfc",
+      "number": "123456789",
+      "email": "abcd@gmail.com",
+      "type": "dinning",
+      "catagory": "veg",
+      "address": "asbchdk",
+      "id": 7
+    }
+  ],
+  "dish": [
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "non veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 1
+    },
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 2
+    },
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "non veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 3
+    },
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 4
+    },
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "non veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 5
+    },
+    {
+      "dishName": "Ultimate bucket",
+      "catagory": "non veg",
+      "time": 10,
+      "desc": "lorem10asjnsdbfubfiubfourbgrouerbueohrgpjrwrrgbgob",
+      "id": 6
+    },
+    {
+      "dishName": "jndj",
+      "catagory": "h ds",
+      "time": "55",
+      "desc": "hvjhbdsc",
+      "id": 7
+    },
+    {
+      "dishName": "q",
+      "catagory": "w",
+      "time": "3",
+      "desc": "eqr",
+      "id": 9
+    }
+  ],
+  "feedback": [
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 1
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 2
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 3
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 4
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 5
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 6
+    },
+    {
+      "dishName": "ultimate bucket",
+      "restName": "kfc",
+      "custName": "Abcs",
+      "custNum": 123456,
+      "rating": 4,
+      "review": "qewrwtwyuddhggvvdfoidnvdfvdsfninlinbnfobnlgbnbdnodgbn",
+      "id": 7
+    }
+  ]
+}

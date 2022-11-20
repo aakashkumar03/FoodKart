@@ -1,0 +1,28 @@
+.review1{
+    margin-left: 250px;
+}
+.total2 h1{
+    margin-top: 0px;
+}
+.total2{
+    margin-left: 100px;
+    padding-top: 40px;
+}
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card2{
+    margin: 20px;
+    border: 3px solid black;
+    padding: 20px;
+    background-color: aliceblue;
+    width: 1000px;
+    border-radius: 10px;
+
+}
+.card2 button{
+    margin: 20px 0px 0px 25px;
+}

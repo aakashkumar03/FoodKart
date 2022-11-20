@@ -1,0 +1,98 @@
+.city{
+    display: flex;
+    margin: 100px 100px;
+    justify-content: space-between;
+    
+    /* margin-left: 300px; */
+}
+
+.div1{
+    width: 100px;   
+}
+.div2{
+    width: 100px;
+}
+.div3{
+    width: 100px;
+}
+.div4{
+    width: 100px;
+}
+.div5{
+    width: 100px;
+}
+.div6{
+    width: 100px;
+}
+
+.facility{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 100px;
+    height: 500px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: aquamarine;
+    /* margin-top: 10px; */
+}
+.login a{
+    margin: 20px 40px;
+    width: 200px;
+    color: black;
+    font-size: larger;
+    
+}
+.eat{
+    width: 400px;
+    height: 300px;
+    margin-top: 0px;
+}
+.delivery{
+    width: 400px;
+    height: 300px;
+}
+
+.about{
+    width: 400px;
+    height: 300px;
+}
+
+.eat img{
+    width: 400px;
+}
+.delivery img{
+    width: 400px;
+}
+.about img{
+    width: 400px;
+}
+.log img{
+    margin: 0px 100px;
+}
+
+.search{
+    background-image: url(../image/wallpaper3.jpg);
+    background-size: cover;
+    height: 70vh;
+    margin-top: 0px;
+    padding: 200px 0px 0px 900px;
+}
+.search input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10PX;
+    font-size: larger;
+    font-style: italic;
+}
+.search button{
+    margin-left: 50px;
+    height: 35px;
+    background-color: rgb(254, 254, 254);
+    color: rgb(44, 108, 163);
+    font-size: larger;
+    border-radius: 50PX;
+}

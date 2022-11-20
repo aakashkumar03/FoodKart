@@ -1,0 +1,68 @@
+.feedback{
+    margin-left: 250px;
+    display: flex;
+    background-image: url(../image/wallpaper15.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.container4 h1{
+    text-align: center;
+    font-size: x-large;
+}
+.container4{
+    margin:80px 0px 0px 200px;
+    background-color: rgba(240, 248, 255, 0.896);
+    width: 600px;
+    height: 620px;
+    border-radius: 0px 50px 0px 50px;
+    border: 2px solid black;
+}
+.form2{
+    margin: 50px;
+}
+.form2 input{
+    width: 490px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+}
+.form2 textarea{
+    width: 470px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgba(250, 235, 215, 0);
+    font-style: italic;
+}
+.form2 select{
+    width: 490px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(250, 235, 215, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form2 button{
+    margin: 20px 0px 0px 220px;
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    color: azure;
+    background-color: black;
+}
+input:focus {
+    outline: none;
+}
+select:focus {
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}

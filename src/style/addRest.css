@@ -1,0 +1,48 @@
+.addrest{
+    margin-left: 250px;
+}
+.addrest{
+    background-image: url(../image/wallpaper19.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+.container2 h1{
+    margin-top: 10px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.container2{
+    margin: 80px 0px 0px 220px;
+    width: 700px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 0px 50px 0px 50px;
+    /* text-align: center; */
+}
+.container2 label{
+    color:white;
+    margin-left: 150px;
+    /* margin-top: 10px; */
+    
+}
+.container2 input{
+    width: 500px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.container2 button{
+    margin: 40px 0px 0px 170px;
+    padding: 5px 20px;
+    font-size: large;
+    border-radius: 50px;
+    
+}

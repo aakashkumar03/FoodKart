@@ -1,0 +1,37 @@
+.userDet{
+    display: flex;
+    background-color: red;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 3px solid rgb(247, 249, 250);
+    background-color: black;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+    font-size:larger;
+}
+.links li{
+    list-style-type: none;
+    padding: 20px 10px;
+    color: aliceblue;
+
+}
+.links li:hover{
+    background-color: rgba(204, 209, 218, 0.852);
+    /* color: rgb(142, 16, 16); */
+}
+.links ul{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar{
+    background-color: rgba(0, 0, 0, 0.742);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+}
