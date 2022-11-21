@@ -25,6 +25,7 @@ const SideBar = (probs) => {
           <li><Link to="/user-portal/non-veg-rest">For Non Vegetarian</Link></li>
           {/* <li><Link to="/user-portal/fav-dish">Favourite Dish</Link></li> */}
           <li><Link to="/user-portal/fastdelivery">Fast Delivery</Link></li>
+          <li><Link to="/user-portal/review">Review</Link></li>
           <li><Link to="/user-portal/feedback">Feedback</Link></li>
           <li><Link to="/user-login">LogOut</Link></li>
         </ul>

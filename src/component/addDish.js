@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const AddDish = () => {
   let [dishName, setDishName] = useState("");
-  let [catagory, sarCatagory] = useState("");
+  let [catagory, setCatagory] = useState("");
   let [time, setTime] = useState("");
   let [desc, setDesc] = useState("");
   let navi = useNavigate();
@@ -18,6 +18,12 @@ const AddDish = () => {
     alert("Data saved Successfully");
     navi("/restaurant-portal/dish-list");
   };
+  let reset=()=>{
+    setDishName("");
+    setCatagory("");
+    setTime("");
+    setDesc("");
+  }
   return (
     <section className="adddish">
       <div className="container3">
@@ -36,9 +42,9 @@ const AddDish = () => {
           <br />
           <input
             type="text"
-            placeholder="veg/Nonveg"
+            placeholder="veg/nonveg"
             value={catagory}
-            onChange={(e) => sarCatagory(e.target.value)}
+            onChange={(e) => setCatagory(e.target.value)}
           />
           <br />
           <label htmlFor="">Time to prepare</label>
@@ -65,7 +71,7 @@ const AddDish = () => {
           ></textarea>
           <br />
           <button>Submit</button>
-          <button>Reset</button>
+          <button onClick={reset} type="reset">Reset</button>
         </form>
       </div>
     </section>

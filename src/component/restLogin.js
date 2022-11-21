@@ -8,7 +8,7 @@ const RestLogin = (probs) => {
   let handleSubmit=(e)=> {
     e.preventDefault();
     if(email===probs.data && password==="admin"){
-      navigate('/restaurant-portal/rest-home')
+      navigate('/restaurant-portal/')
     }else{
       alert("Invalid credentials")
     }

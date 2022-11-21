@@ -14,7 +14,7 @@ const RestPortal = (probs) => {
         <div className="top">
             <NavBar data={probs.data}/>
             <Routes>
-                <Route path="/rest-home" element={<RestHome/>}/>
+                <Route path="/" element={<RestHome/>}/>
                 <Route path="/add-rest" element={<AddRest/>}/>
                 <Route path="/add-dish" element={<AddDish/>}/>
                 <Route path="/rest-list" element={<RestList/>}/>

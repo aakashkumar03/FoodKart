@@ -22,7 +22,13 @@ const HomePage = () => {
       <div className="search">
         <input type="text" placeholder="Enter your delivery location"  />
         <button onClick={handleClick}>Search</button>
+        <div className="homeimg">
+        <img src="https://cdn-icons-png.flaticon.com/128/706/706195.png" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/128/1027/1027128.png" alt="" />
+        <img src="https://cdn-icons-png.flaticon.com/128/3595/3595843.png" alt="" />
       </div>
+      </div>
+      
    
       <div className="facility">
         <div className="eat">

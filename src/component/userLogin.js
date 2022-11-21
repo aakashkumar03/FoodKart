@@ -8,7 +8,7 @@ const UserLogin = (probs) => {
   let handleSubmit=(e)=> {
     e.preventDefault();
     if(user===probs.data && password==="user"){
-      navigate('/user-portal/user-home')
+      navigate('/user-portal/')
     }else{
       alert("Invalid credentials")
     }

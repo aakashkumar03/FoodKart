@@ -10,18 +10,20 @@ import MemberShip from './memberShip';
 import FastDelivery from './fastDel';
 import FeedBack from './feedBack.js';
 import Error from './error';
+import Review from './review';
 
 const UserPortal = (probs) => {
     return ( <section className="userportal">
         <SideBar data={probs.data}/>
         <Routes>
-        <Route path='/user-home' element={<UserHome/>} />
+        <Route path='/' element={<UserHome/>} />
         <Route path='/rest-list' element={<RestList/>} />
         <Route path='/veg-rest' element={<Veg/>} />
         <Route path='/non-veg-rest' element={<NonVeg/>} />
         {/* <Route path='/fav-dish' element={<FavDish/>} /> */}
         <Route path='/membership' element={<MemberShip/>} />
         <Route path='/fastdelivery' element={<FastDelivery/>} />
+        <Route path='/review' element={<Review/>} />
         <Route path='/feedback' element={<FeedBack/>} />
         <Route path="/*" element={<Error/>}/>
         </Routes>

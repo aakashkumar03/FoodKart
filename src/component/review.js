@@ -1,7 +1,8 @@
 import "../style/review.css";
 import { useState, useEffect } from "react";
-
+import { useLocation } from "react-router-dom";
 const Review = () => {
+  let loc= useLocation();
   let [feed, setFeed] = useState([]);
   useEffect(() => {
     const fetchData = async () => {
@@ -51,11 +52,12 @@ const Review = () => {
                 <div className="rev">
                     Review: {Re.review} <br />
                 </div>
+                {loc.pathname === "/restaurant-portal/feedback" && (
                 <div className="buttonDel">
                     <button onClick={() => handleDelete(Re.id)}>
                       Delete
                     </button>
-                  </div>
+                  </div>)}
             </div>;
           })}
         </div>

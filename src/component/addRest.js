@@ -2,7 +2,7 @@ import "../style/addRest.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const AddRest = () => {
-  let [restName, SetRestName] = useState("");
+  let [restName, setRestName] = useState("");
   let [number, setNumber] = useState("");
   let [email, setEmail] = useState("");
   let [type, setType] = useState("");
@@ -20,6 +20,14 @@ const AddRest = () => {
     alert("Data saved Successfully");
     navi("/restaurant-portal/rest-list");
   };
+  let reset=()=>{
+    setRestName("");
+    setNumber("");
+    setEmail("");
+    setType("");
+    setCatagory("");
+    setAddress("");
+  }
   return (
     <section className="addrest">
       <div className="container2">
@@ -31,7 +39,7 @@ const AddRest = () => {
             type="text"
             placeholder="Enter your restaurant name"
             value={restName}
-            onChange={(e) => SetRestName(e.target.value)}
+            onChange={(e) => setRestName(e.target.value)}
           />
           <br />
           <label htmlFor="">Number</label>
@@ -81,7 +89,7 @@ const AddRest = () => {
           <br />
 
           <button>Submit</button>
-          <button>Reset</button>
+          <button type="reset" onClick={reset}>Reset</button>
         </form>
       </div>
     </section>

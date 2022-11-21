@@ -117,7 +117,13 @@
     color: rgb(0, 0, 0);
     border: 2px solid black;
     font-size: larger;
-    
-    width: 100px;
-    /* border-radius: 50PX; */
+    padding:7px 0px ;    width: 100px;
 }
+.homeimg{
+    padding-top: 250px;
+    padding-left: 300px;
+    width: 400px;
+    height: 150px;
+    justify-content: space-around;
+}
+/* //GOCOMMET */
