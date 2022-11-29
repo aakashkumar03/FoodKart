@@ -1,5 +1,5 @@
 import "../style/dishList.css";
-import FavDish from "./favDish";
+// import FavDish from "./favDish";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 const DishList = () => {
