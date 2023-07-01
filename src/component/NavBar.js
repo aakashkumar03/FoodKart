@@ -19,7 +19,7 @@ const NavBar = (probs) => {
       <div className="link">
         <ul>
           <li>
-            <Link to="/restaurant-portal/rest-home">Home</Link>
+            <Link to="/restaurant-portal/">Home</Link>
           </li>
           <li>
             <Link to="/restaurant-portal/add-rest">Add Restaurant</Link>

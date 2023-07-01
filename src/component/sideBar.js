@@ -19,7 +19,7 @@ const SideBar = (probs) => {
       </div>
       <div className="links">
         <ul>
-          <li><Link to="/user-portal/user-home">Home</Link></li>
+          <li><Link to="/user-portal/">Home</Link></li>
           <li><Link to="/user-portal/rest-list">Restaurant List</Link></li>
           <li><Link to="/user-portal/veg-rest">For Vegetarian</Link></li>
           <li><Link to="/user-portal/non-veg-rest">For Non Vegetarian</Link></li>

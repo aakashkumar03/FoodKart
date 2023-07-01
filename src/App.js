@@ -1,6 +1,6 @@
 import "../src/style/App.css";
 import HomePage from "./component/homePage";
-import {BrowserRouter, Routes,Route} from 'react-router-dom'
+import { BrowserRouter, Routes,Route } from 'react-router-dom'
 import UserLogin from "./component/userLogin";
 import RestLogin from "./component/restLogin";
 import RestPortal from "./component/restPortal";
